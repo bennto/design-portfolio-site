@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
+
+<style>
+	html {
+		font-size: 16px; /* Keeps rems predictable (1rem = 16px) */
+		-webkit-text-size-adjust: 100%; /* Prevents iOS font scaling */
+		 overflow-x: hidden;
+	}
+
+	*, *::before, *::after {
+		box-sizing: inherit;
+	}
+
+	body {
+		margin: 0; /* Removes default browser margin */
+		padding: 0;
+		min-height: 100vh; /* Ensure body always fills viewport */
+		font-family: "Public", sans-serif;	
+		font-weight: 500;
+		line-height: 1.8rem;
+		color: #1a1a1a;
+		background-color: #fff;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	html, body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+	h1 {
+    	font-size: 2.4rem;
+		margin: 1rem 0 0.5rem 0;
+		line-height: 2.4rem;
+  	}
+	h2 {
+		margin: 1.6rem 0 0.4rem 0;
+	}
+  	h6 {
+    	font-weight: 400;
+    	font-size: 0.9rem;
+		margin: 0;
+  	}
+	p, li {
+		text-align: justify;
+		color: rgb(85, 85, 85);
+	}
+	a {
+		text-decoration: none;
+		color: red;
+	}
+	button {
+		width: 100%;
+		all: unset;       /* remove default button styles */
+  		display: inline-block;
+  		cursor: pointer;
+	}
+	button img {
+		 display: block;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+</style>
