@@ -1,4 +1,5 @@
 <script>
+  import { openLightbox } from "$lib/stores/lightboxStore.js";
   import video from "$lib/assets/trel/trel-home.mp4";
   import A from "$lib/assets/trel/trel-1.gif";
   import B from "$lib/assets/trel/trel-2.gif";
@@ -8,7 +9,7 @@
   <h1>Texas Rocket Engineering Lab</h1>
   <h6>Fall 2021 - Spring 2023</h6>
   <br />
-  <div class="thumbnail-container">
+  <div class="image-container">
     <!-- svelte-ignore a11y-media-has-caption -->
     <video autoplay loop src={video}></video>
   </div>
@@ -37,28 +38,36 @@
       rel="noopener noreferrer">here</a
     >.
   </p>
-  <div class="thumbnail-container">
-    <img src={A} alt="Access Coordinator problems" />
+  <div class="image-container">
+    <button type="button" on:click={() => openLightbox(A)}>
+      <img src={A} alt="Access Coordinator problems" />
+    </button>
   </div>
-  <div class="thumbnail-container">
-    <img src={B} alt="Access Coordinator problems" />
+  <div class="image-container">
+    <button type="button" on:click={() => openLightbox(B)}>
+      <img src={B} alt="Access Coordinator problems" />
+    </button>
   </div>
 </section>
 
 <style>
-  .thumbnail-container {
+  .image-container {
     width: 100%;
     display: flex;
     overflow: hidden;
     margin-bottom: 6px;
   }
-  .thumbnail-container video {
+  .image-container video {
     object-fit: cover;
     width: 100%;
     animation: fadeIn 2s cubic-bezier(0.25, 0.48, 0.55, 1.01);
   }
-  .thumbnail-container img {
+  .image-container img {
     object-fit: cover;
+    width: 100%;
+  }
+
+  .image-container button {
     width: 100%;
   }
 

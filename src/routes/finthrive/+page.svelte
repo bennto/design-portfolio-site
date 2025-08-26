@@ -10,7 +10,7 @@
 
 <section>
   <h1>FinThrive</h1>
-  <h6>Summer 2024</h6>
+  <h6>Summer 2023</h6>
   <br />
   <p>
     This post is a "slightly" more concise version of <a

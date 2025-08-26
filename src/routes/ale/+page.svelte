@@ -64,7 +64,9 @@
     stakeholders.
   </p>
   <div class="image-container">
-    <img src={images[3].src} alt={images[3].name} />
+    <button type="button" on:click={() => openLightbox(images[3].src)}>
+      <img src={images[3].src} alt={images[3].name} />
+    </button>
   </div>
   <p>
     Visit the dashboard <a
@@ -90,6 +92,7 @@
   }
   .image-container img:nth-of-type(1) {
     border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
   }
 
   .image-grid {
