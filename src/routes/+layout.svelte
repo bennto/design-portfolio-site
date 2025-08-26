@@ -1,11 +1,21 @@
 <script>
   import Lightbox from "$lib/components/Lightbox.svelte";
-  import favicon from "$lib/assets/favicon.svg";
+  import favicon from "$lib/assets/favicon.png";
   import Navbar from "$lib/components/Navbar.svelte";
 </script>
 
 <svelte:head>
   <link rel="icon" href={favicon} />
+  <title>Bennett's Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Bennett Xu, marketing professional with additional experience in UI/UX design, web development, data analytics, and graphic design."
+  />
+  <meta
+    name="keywords"
+    content="UI/UX designer, web developer, graphic designer, digital marketing, portfolio, freelance, responsive design, branding, data analytics, marketing analytics"
+  />
+  <meta name="author" content="Bennett Xu" />
 </svelte:head>
 
 <div class="app-container">

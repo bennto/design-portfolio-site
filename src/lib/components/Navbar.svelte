@@ -3,6 +3,8 @@
   import { page } from "$app/stores";
   import { derived } from "svelte/store";
 
+  import favicon from "$lib/assets/favicon.png";
+
   const currentPath = derived(page, ($page) => $page.url.pathname);
   const pageName = derived(page, ($page) => {
     const segments = $page.url.pathname.split("/").filter(Boolean);
@@ -57,7 +59,10 @@
 
 <nav id="sidebar" class="sidebar {sidebarOpen ? 'open' : ''}">
   <div class="sidebar-header">
-    <div class="logo">Bennett Xu</div>
+    <div class="logo">
+      <img src={favicon} alt="favicon" />
+      Bennett Xu
+    </div>
 
     {#if isMobile && sidebarOpen}
       <button class="close-btn" on:click={toggleSidebar} aria-label="Close menu"
@@ -162,6 +167,17 @@
     font-weight: 700;
     color: #000;
     margin-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+  }
+  .logo img {
+    height: 32px;
+    transition: 0.2s ease;
+  }
+
+  .logo img:hover {
+    transform: rotate(12deg) scale(1.2);
   }
 
   .close-btn {

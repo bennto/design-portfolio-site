@@ -7,8 +7,6 @@
     const name = filename.split("_").pop().replace(".png", ""); // e.g. "chicha"
     return { src: mod.default, href: `/${name}` };
   });
-
-  console.log(images);
 </script>
 
 <section>
