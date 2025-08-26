@@ -84,14 +84,14 @@
   >
   <div class="section-header">UI / UX</div>
   <a
-    href="/finthrive"
-    class:selected={$currentPath === "/finthrive"}
-    on:click={() => (sidebarOpen = false)}>FinThrive</a
-  >
-  <a
     href="/chicha"
     class:selected={$currentPath === "/chicha"}
     on:click={() => (sidebarOpen = false)}>Chicha San Chen</a
+  >
+  <a
+    href="/finthrive"
+    class:selected={$currentPath === "/finthrive"}
+    on:click={() => (sidebarOpen = false)}>FinThrive</a
   >
   <div class="section-header">Webdev</div>
   <a
