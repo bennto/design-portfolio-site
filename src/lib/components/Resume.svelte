@@ -9,9 +9,7 @@
   <section>
     <h2>Work Experience</h2>
     <div>
-      <h3>
-        Product and Marketing Operations Lead @ Alienware Longhorn Esports (ALE)
-      </h3>
+      <h3>Product and Marketing Operations @ Alienware Longhorn Esports</h3>
       <p class="italic">Jul. 2024 – Present</p>
       <ul>
         <li>
@@ -82,10 +80,21 @@
       <h3>Co-founder & Web Director @ Change 1 (UT Austin Chapter)</h3>
       <p class="italic">Aug. 2022 – Feb. 2024</p>
     </div>
+    <ul>
+      <li>
+        Scraped, itemized, and filtered state legislative bills using Python.
+      </li>
+      <li>Managed web content in WordPress CMS.</li>
+    </ul>
     <div>
       <h3>Web Director @ Texas Rocket Engineering Lab</h3>
       <p class="italic">Feb. 2021 – Dec. 2023</p>
     </div>
+    <ul>
+      <li>Developed a frontend website using NextJS.</li>
+      <li>Coordinated with copywriting team to generate blog content.</li>
+      <li>Worked with media and sales teams to optimize ranking in SERPs.</li>
+    </ul>
   </section>
 
   <!-- Education -->

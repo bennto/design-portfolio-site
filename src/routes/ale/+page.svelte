@@ -34,6 +34,18 @@
     leadership, coordinating with relevant stakeholders, and promoting the
     event.
   </p>
+  <h3>Marketing Deliverables:</h3>
+  <ul>
+    <li>Email campaign targeting ALE and University Unions recipients</li>
+    <li>Exclusive discount promotion for university faculty</li>
+    <li>USPS Every Door Direct Mail (EDDM) distribution</li>
+    <li>Summer Camp Guide listing in Austin Family Magazine</li>
+  </ul>
+  <h3>Outcome</h3>
+  <ul>
+    <li>Received 36 camper registrations</li>
+    <li>Generated $16k in revenue (20% of yearly total)</li>
+  </ul>
   <div class="image-grid">
     <div class="tall">
       <button type="button" on:click={() => openLightbox(images[0].src)}>
@@ -72,8 +84,8 @@
     Visit the dashboard <a
       href="https://ale-sales.streamlit.app/"
       target="_blank"
-      rel="noopener noreferrer">here</a
-    >!
+      rel="noopener noreferrer">here!</a
+    > Press "Yes, get this app back up!" to wake up the app.
   </p>
 </section>
 
