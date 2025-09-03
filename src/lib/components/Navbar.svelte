@@ -81,11 +81,21 @@
     class:selected={$currentPath === "/resume"}
     on:click={() => (sidebarOpen = false)}>Resume</a
   >
+  <a
+    href="/video-gallery"
+    class:selected={$currentPath === "/video-gallery"}
+    on:click={() => (sidebarOpen = false)}>Video Gallery</a
+  >
   <div class="section-header">Marketing</div>
   <a
-    href="/ale"
-    class:selected={$currentPath === "/ale"}
-    on:click={() => (sidebarOpen = false)}>Alienware Longhorn Esports</a
+    href="/ale-sales-dashboard"
+    class:selected={$currentPath === "/ale-sales-dashboard"}
+    on:click={() => (sidebarOpen = false)}>ALE Sales Dashboard</a
+  >
+  <a
+    href="/ale-summer-camp"
+    class:selected={$currentPath === "/ale-summer-camp"}
+    on:click={() => (sidebarOpen = false)}>Esports Summer Camp</a
   >
   <div class="section-header">UI / UX</div>
   <a
