@@ -113,23 +113,6 @@
     line-height: 1.6;
     background: #fff;
   }
-  header {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  header h1 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 0.3rem;
-  }
-  header p {
-    font-size: 0.95rem;
-    color: #555;
-  }
-  header a {
-    color: #0070f3;
-    text-decoration: none;
-  }
   section {
     margin-bottom: 2.5rem;
   }
@@ -160,8 +143,5 @@
   ul li {
     margin-bottom: 0.3rem;
     font-size: 0.95rem;
-  }
-  strong {
-    font-weight: 600;
   }
 </style>
