@@ -212,7 +212,7 @@
   }
 
   a.selected {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #e5e5e5;
     color: black;
   }
 
