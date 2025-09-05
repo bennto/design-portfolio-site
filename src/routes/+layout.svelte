@@ -22,6 +22,7 @@
   <Navbar />
   <div class="main-container">
     <main aria-label="main" class="main-content">
+      <h1 style="display: none">Page Title or Main Heading</h1>
       <slot />
       <Lightbox />
     </main>
