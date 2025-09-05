@@ -37,7 +37,7 @@
 </script>
 
 {#if isMobile}
-  <div id="mobile-sidebar">
+  <div role="contentinfo" id="mobile-sidebar">
     <h2>{$pageName}</h2>
   </div>
 {/if}
@@ -219,7 +219,7 @@
   .section-header {
     margin: 32px 0 4px 0.6rem;
     font-size: 0.75rem;
-    color: #888;
+    color: #575757;
     letter-spacing: 0.05em;
     user-select: none;
   }

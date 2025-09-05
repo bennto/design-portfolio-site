@@ -21,7 +21,7 @@
 <div class="app-container">
   <Navbar />
   <div class="main-container">
-    <main class="main-content">
+    <main aria-label="main" class="main-content">
       <slot />
       <Lightbox />
     </main>
