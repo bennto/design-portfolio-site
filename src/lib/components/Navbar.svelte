@@ -117,7 +117,7 @@
 
   <div class="section-header">Contact</div>
   <a
-    href="mailto:benn.too@gmaill.com"
+    href="mailto:benn.shoo@gmail.com"
     rel="noopener noreferrer"
     on:click={() => (sidebarOpen = false)}>Email</a
   >
