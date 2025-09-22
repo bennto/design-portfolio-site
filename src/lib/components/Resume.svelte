@@ -8,9 +8,19 @@
 <main>
   <section>
     <h2>Work Experience</h2>
+
+    <div>
+      <h3>Founder @ Shuu Jaa Draws</h3>
+      <p class="italic">Feb. 2025 – Present</p>
+      <ul>
+        <li>Designed, manufactured, and sold merchandise at events.</li>
+        <li>Created new designs using Adobe Photoshop and Illustrator.</li>
+      </ul>
+    </div>
+
     <div>
       <h3>Product and Marketing Operations @ Alienware Longhorn Esports</h3>
-      <p class="italic">Jul. 2024 – Present</p>
+      <p class="italic">Jul. 2024 – Jun. 2025</p>
       <ul>
         <li>
           Optimized marketing funnel, increasing subscription sales by &gt;40%.
@@ -24,15 +34,6 @@
         <li>
           Performed content updates, SEO, and UX improvements in Drupal CMS.
         </li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Founder @ Shuu Jaa Draws</h3>
-      <p class="italic">Feb. 2025 – Present</p>
-      <ul>
-        <li>Designed, manufactured, and sold merchandise at events.</li>
-        <li>Created new designs using Adobe Photoshop and Illustrator.</li>
       </ul>
     </div>
 
